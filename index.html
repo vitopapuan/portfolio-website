@@ -24,17 +24,19 @@
       rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div id="branding">
-        <h1>von.px</h1>
+    <header id="header">
+      <div class="container">
+        <div id="branding">
+          <h1><a href="#header">von.px</a></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#showcase">HOME</a></li>
-          <li><a href="#works">WORKS</a></li>
-          <li><a href="#about">ABOUT</a></li>
-        </ul>
-      </nav>
     </header>
 
     <section id="showcase">
@@ -47,23 +49,31 @@
     <section id="works">
       <div class="container">
         <h1>portfolio works</h1>
-        <div class="box">
-          <img
-            src="https://pbs.twimg.com/media/FFnDOGRWUAIUwfP?format=png"
-            alt="pixel art" />
-          <h2>pixel art</h2>
-        </div>
-        <div class="box">
-          <img
-            src="https://static.wixstatic.com/media/83cb4b_e5565a7d1cdd46e898f98177f4f7234a~mv2.png/v1/fit/w_1692,h_781,q_90/83cb4b_e5565a7d1cdd46e898f98177f4f7234a~mv2.webp"
-            alt="graphic design" />
-          <h2>graphic design</h2>
-        </div>
-        <div class="box">
-          <img
-            src="https://pbs.twimg.com/media/FFnDOGRWUAIUwfP?format=png"
-            alt="web design" />
-          <h2>web design</h2>
+        <div class="box-group">
+          <div class="box">
+            <img
+              src="https://pbs.twimg.com/media/FFnDOGRWUAIUwfP?format=png"
+              alt="pixel art" />
+            <div>
+              <h2>pixel art</h2>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="https://static.wixstatic.com/media/83cb4b_e5565a7d1cdd46e898f98177f4f7234a~mv2.png/v1/fit/w_1692,h_781,q_90/83cb4b_e5565a7d1cdd46e898f98177f4f7234a~mv2.webp"
+              alt="graphic design" />
+            <div>
+              <h2>graphic design</h2>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="https://pbs.twimg.com/media/FFnDOGRWUAIUwfP?format=png"
+              alt="web design" />
+            <div>
+              <h2>web design</h2>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -74,5 +84,11 @@
         <p>@von_px</p>
       </div>
     </section>
+
+    <footer>
+      <div class="container">
+        <p>von.px | copyright &copy; 2022</p>
+      </div>
+    </footer>
   </body>
 </html>
